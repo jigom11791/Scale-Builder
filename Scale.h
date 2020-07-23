@@ -2,7 +2,9 @@
 #define SCALE_H
 #include <iostream>
 #include <string>
+#include "Note.h"
 
+using namespace std;
 class Scale
 {
 private:
@@ -13,7 +15,7 @@ private:
     
 public:
     Scale(char);
-    Scale(Note, std::string);
+    Scale(Note, string);
     void printScale();
 };
 

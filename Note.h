@@ -1,11 +1,12 @@
 #ifndef NOTE_H
 #define NOTE_H
 
+using namespace std;
 class Note
 {
 private:
     char value, accidental;
-    char[7] ionian;
+    char[7] pattern;
     
 public:
     Note(char value);
