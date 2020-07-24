@@ -1,3 +1,1 @@
-Debug/Scale.cpp.o: Scale.cpp Scale.h
-
-Scale.h:
+Debug/Scale.cpp.o: Scale.cpp

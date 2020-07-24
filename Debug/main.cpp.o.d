@@ -1,3 +1,3 @@
-Debug/main.cpp.o: main.cpp Scale.h
+Debug/main.cpp.o: main.cpp Note.h
 
-Scale.h:
+Note.h:

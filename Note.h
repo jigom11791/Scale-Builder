@@ -6,18 +6,18 @@ class Note
 {
 private:
     char value, accidental;
-    char[7] pattern;
+    int noteToInt();
     
 public:
-    Note(char value);
-    Note(char value, char accidental);
-    ~Note();
+    Note(char);
+    Note(char, char);
     
-    void setAccidental();
-    void setValue();
+    void setAccidental(char);
+    void setValue(char);
+    char getValue();
+    char getAccidental();
     
-    int calculateInterval;
-
+    friend int calculateInterval(Note, Note);
 };
 
 #endif // NOTE_H
